@@ -1,0 +1,59 @@
+.edit-pet-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .edit-pet-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .edit-pet-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .edit-pet-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .edit-pet-form .form-group input,
+  .edit-pet-form .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .edit-pet-form .form-group input[readonly] {
+    background-color: #e9e9e9;
+  }
+  
+  .edit-pet-form .form-group .preview-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
